@@ -156,7 +156,7 @@
               <p class="mb-8 font-poppins text-white ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
               <div class="flex justify-center items-center gap-4">
               <input type="text" placeholder="Search your services" class="input w-full max-w-lg " />
-              <button class="btn bg-btn-primary text-white px-8 font-poppins text-xl font-semibold border-none">Search</button>
+              <button class="btn bg-btn-primary text-white px-8 font-poppins  font-semibold border-none">Search</button>
               </div>
             </div>
           </div>
@@ -525,7 +525,7 @@
             
           </div>
           <!--right box-->
-          <div class="flex-1  justify-center items-center  space-y-8">
+          <div class="flex-1  justify-center items-center  space-y-8 w-full">
             <label class="input py-9 flex items-center gap-2 bg-[#F3F3F3]">
               <input type="text" class="grow" placeholder="Your Name" />
               
@@ -538,9 +538,9 @@
               
               <input type="text" class="grow" placeholder="Subject" />
             </label>
-              <textarea class="pt-4 pl-4 flex items-center gap-2 rounded-lg bg-[#F3F3F3]" name="" id="" cols="100" rows="5" placeholder="Your Message"></textarea>
+              <textarea class="pt-4 pl-4 flex items-center gap-2  border border-white rounded-lg bg-[#F3F3F3]" name="" id="" cols="100" rows="5" placeholder="Your Message"></textarea>
 
-              <button class="  btn bg-btn-primary   w-full text-white text-center">Send Message</button>
+              <button class="btn bg-btn-primary   w-full text-white text-center">Send Message</button>
             
 
           </div>
@@ -548,8 +548,53 @@
       </section>
     </main>
 
-    <footer>
-
+    <footer class="footer p-10 lg:px-52 lg:py-28 text-white bg-black">
+      <nav class="w-64">
+        <img src="images/logo.png" alt="">
+        <p class="font-poppins mt-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        
+      </nav> 
+      <nav>
+        <h6 class="text-2xl font-extrabold font-garamond text-white">Usefull Link</h6>
+        
+        <a class="link link-hover font-poppins">Home</a>
+        <a class="link link-hover font-poppins">About us</a>
+        <a class="link link-hover font-poppins">Cases</a>
+        <a class="link link-hover font-poppins">Blog</a>
+        <a class="link link-hover font-poppins">Contact Us</a>
+        
+      </nav> 
+      <nav>
+        <h6 class="text-2xl font-extrabold font-garamond text-white">Contact Now</h6> 
+       <div class="font-poppins">
+        <div class="mb-2">
+          <p>555 4th 5t NW, Washington</p>
+        <p>DC 20530, United States</p>
+        </div>
+        <div class="mb-2">
+        <p>+88 01750 000 000</p>
+        <p>+88 01750 000 000</p>
+        </div>
+        <div class="mb-2">
+        <p>info@gmail.com</p>
+        <p>info@gmail.com</p>
+        </div>
+       </div>
+      </nav> 
+      <form class="text-white">
+        <h6 class="text-2xl font-extrabold font-garamond text-white">Subscribe</h6>
+        <fieldset class="form-control w-80">
+          <label class="label">
+            <span class="font-poppins">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</span>
+          </label> 
+          <div class="join">
+            <input type="text" placeholder="Email Address" class="input input-bordered p-5 join-item border-none" /> 
+            <button class="btn bg-btn-primary text-white join-item border-none ">
+              <i class="fa-solid fa-location-arrow"></i>
+            </button>
+          </div>
+        </fieldset>
+      </form>
     </footer>
 </body>
 </html>
